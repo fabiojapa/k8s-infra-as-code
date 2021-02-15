@@ -20,7 +20,7 @@ Automation with Terraform : saka Infra provision
 
 > terraform init
 
-### Create workspace of your enviroment dev, prd; for example: prod
+### Create workspace of your enviroment dev, prd; for example: prd
 
 > terraform workspace new prd
 
