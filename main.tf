@@ -16,7 +16,7 @@ module "saka-k8s" {
   region          = var.region
   zone            = var.zone
 
-  machine_type    = "custom-4-8192-ext"
+  machine_type    = var.machine_type
   disk_size_gb    = 50
 
   env             = var.env
